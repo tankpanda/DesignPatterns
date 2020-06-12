@@ -1,6 +1,11 @@
 package com.hhd.patterns.strategy;
 
 public class Sorter<T> {
+    /**
+     * 将比较器传入 作为比较策略
+     * @param arr
+     * @param compator
+     */
     public void sort(T[] arr, MyCompator<T> compator) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minPos = i;

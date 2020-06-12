@@ -1,6 +1,10 @@
 package com.hhd.patterns.strategy;
 
 public class SorterAble {
+    /**
+     * 实现MyComparable接口 对象内增加比较方法
+     * @param arr
+     */
     public void sort(MyComparable[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minPos = i;
