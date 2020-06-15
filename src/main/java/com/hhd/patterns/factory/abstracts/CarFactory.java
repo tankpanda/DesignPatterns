@@ -7,7 +7,7 @@ public class CarFactory extends AbstractFactory {
     }
 
     @Override
-    public Vehicle creatVehicle() {
+    public Vehicle createVehicle() {
         return new Car();
     }
 }

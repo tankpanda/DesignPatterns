@@ -2,5 +2,5 @@ package com.hhd.patterns.factory.abstracts;
 
 public abstract class AbstractFactory {
     abstract Food createFood();
-    abstract Vehicle creatVehicle();
+    abstract Vehicle createVehicle();
 }

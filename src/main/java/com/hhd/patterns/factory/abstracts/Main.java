@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
         AbstractFactory carFactory = new CarFactory();
         carFactory.createFood();
-        carFactory.creatVehicle();
+        carFactory.createVehicle();
 
         AbstractFactory trainFactory = new TrainFactory();
         trainFactory.createFood();
-        trainFactory.creatVehicle();
+        trainFactory.createVehicle();
     }
 }
