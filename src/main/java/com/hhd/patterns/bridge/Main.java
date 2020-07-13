@@ -1,7 +1,8 @@
 package com.hhd.patterns.bridge;
 
 /**
- * 已聚合代替继承
+ * 以聚合代替继承
+ * 抽象类和实际类并行发展
  */
 public class Main {
     public static void main(String[] args) {
